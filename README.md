@@ -34,3 +34,10 @@ set FLASK_APP=flask_app.py</code>
 ![](screenshots/1.png)
 ![](screenshots/2.png)
 ![](screenshots/3.png)
+
+## Contributor
+
+- [Leah Dsouza](https://github.com/leahdsouza)
+- [Orvil D'silva](https://github.com/orvil1026)
+- [Ralph Dsouza](https://github.com/RD0410)
+- [Collin Dbritto](https://www.linkedin.com/in/collin-dbritto-9114281a0/)
