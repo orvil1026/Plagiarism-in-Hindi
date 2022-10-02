@@ -37,7 +37,7 @@ set FLASK_APP=flask_app.py</code>
 
 ## Contributor
 
-- [Leah Dsouza](https://github.com/leahdsouza)
 - [Orvil D'silva](https://github.com/orvil1026)
+- [Leah Dsouza](https://github.com/leahdsouza)
 - [Ralph Dsouza](https://github.com/RD0410)
 - [Collin Dbritto](https://www.linkedin.com/in/collin-dbritto-9114281a0/)
