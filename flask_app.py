@@ -52,7 +52,7 @@ def input_page_post():
     cosine = c / float((sum(l1) * sum(l2)) ** 0.5)
     print("similarity: ", cosine)
 
-    return (str)(cosine)
+    return render_template("result.html",result=str(cosine*100))
 
 
 if __name__ == "__main__":

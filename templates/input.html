@@ -4,28 +4,65 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="{{ url_for('static', filename='css/clean-blog.min.css')}}" rel="stylesheet">
+
 </head>
 <body>
 
-<h1>Plagarism in Hindi!</h1>
+   <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/bg.jpg')}}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 mx-auto">
+          <div class="page-heading">
 
-<form method="POST">
-    <div class="input-group">
-  <span class="input-group-text">Text 1</span>
-  <textarea class="form-control" aria-label="With textarea" name="text1" id="text1"></textarea>
-</div>
+            <h1>Check Plagiarism</h1>
 
-<div class="input-group">
-  <span class="input-group-text">Text 2</span>
-  <textarea class="form-control" aria-label="With textarea" name="text2" id="text2"></textarea>
-</div>
-    <input type="submit">
-</form>
+            <span class="subheading">Check the similarity in your text!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
-
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
 
 
-<button type="button" class="btn btn-dark">Get Started</button>
+        <form method="POST">
+            <div class="input-group">
+          <span class="input-group-text">Text 1</span>
+          <textarea class="form-control" aria-label="With textarea" name="text1" id="text1"></textarea>
+        </div>
+        <br>
+
+        <div class="input-group">
+          <span class="input-group-text">Text 2</span>
+          <textarea class="form-control" aria-label="With textarea" name="text2" id="text2"></textarea>
+        </div>
+<!--            <input type="submit">-->
+            <br>
+            <div class="text-center">
+            <button type="submit" class="btn btn-dark">Check Plagiarism</button>
+            </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+   <br>
+   <br>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 </body>
