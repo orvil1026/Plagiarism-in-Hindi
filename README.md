@@ -1,12 +1,6 @@
 # Plagiarism-in-Hindi
 An Application to check plagiarism in Hindi
 
-# blog-with-users-end
-
-<h6>• Blogs Web Application that includes CRUD operation .<br>
-• Made using Flask.<br>
-</h6><br>
-
 <h1>Getting Started</h1>
 <p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.</p>
 
